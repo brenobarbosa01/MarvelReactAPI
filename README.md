@@ -38,11 +38,19 @@ Desafio feito com <a href="https://pt-br.reactjs.org/">🔗 React</a> utiizando 
 <br>
 <br>
 	
-### Pré-requisitos
+<h1>Pré-requisitos</h1>
 
 Você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 E um editor para visualizar o código, eu recomendo o [VSCode](https://code.visualstudio.com/).
+E fará o seguinte :</h2>
+
+<p>1 - Clonar o Projeto</p>
+<p>2 - No Terminal, você terá que entrar na pasta do projeto (cd marvel-characters-real/)</p>
+<p>3 - npm install</p>
+<p>4 - npm start</p>
+<br>
+<p>O Projeto vai abrir no seu navegador como localhost:3000 e estará pronto para ser visto em funcionamento.</p>
 
 <br>
 <br>
