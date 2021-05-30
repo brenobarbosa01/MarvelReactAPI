@@ -1,0 +1,97 @@
+.imagemlogo{
+  width: 100%;
+  padding-bottom:10px;
+  }
+
+.maindiv{
+    /* background-color: rgba(194, 221, 240, 0.438); */
+    /* background-color: #a6cfe4; */
+  background-color: white;
+}
+
+.fulltitle{
+  background-image: linear-gradient(to left,#df1f2ce7,#447BBE);
+ margin-bottom: -35px;
+}
+
+.titleperson{
+padding-top: 20px;
+  font-size: 40px;
+font-variant: small-caps;
+font-family: Comfortaa;
+
+text-align: center;
+
+background-color:white;
+color: rgba(0, 0, 0, 0.671);
+}
+
+.charlist{
+  padding-bottom: 20px;
+  
+  font-size: 20px;
+  font-family: Comfortaa;
+  text-align: center;
+  
+   border-style: groove; 
+  border-top: none; 
+   border-left: none; 
+   border-width: 3.1px; 
+  border-color: #f7f4f496;
+  color:black;
+  
+} 
+
+.logomarvel{
+  width: 250px;
+  height: 250px;
+  padding-top: 25px;
+  box-shadow: 5px 10px #8888;
+}
+
+
+footer {
+  text-align: center;
+  color: white;
+  
+  padding: 1rem 0 1rem;
+
+  background-color: black;
+  opacity: 0.6;
+  
+}
+
+
+/*Responsive ==================================================================> */
+
+@media (min-width: 800px) {
+  html {
+      font-size: 87,5%;
+  }
+  .maindiv {
+      display:grid;
+      grid-template-columns:  repeat(3, 1fr);
+
+      
+  }
+  .imagemlogo{
+    width: 100%;
+    /* border-radius: 10px; */
+    height: 325px;
+    margin-top: 25px;
+  margin-bottom: -25px;
+  }
+
+  .titleperson{
+    font-size: 50px;
+    font-variant: small-caps;
+    font-family: Comfortaa;
+    
+    text-align: center;
+    
+    background-color:white;
+    color: rgba(0, 0, 0, 0.671);
+    padding:40px;
+    }
+
+}
